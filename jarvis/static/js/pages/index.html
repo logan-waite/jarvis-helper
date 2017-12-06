@@ -1,0 +1,61 @@
+
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+  <h1>
+    {{ pageTitle }}
+  </h1>
+</section>
+
+<!-- Main content -->
+<section class="content">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="nav-tabs-custom">
+        <ul class="nav nav-tabs" id="tabs_ba">
+          <li class="active"><a href="#backlog" data-toggle="tab">Backlog</a></li>
+          <li><a href="#assigned" data-toggle="tab">Assigned To Me</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="backlog">
+            <div class="list">
+              <task-tile></task-tile>
+            </div>
+          </div>
+          <div class="tab-pane" id="assigned">
+            Assigned
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class=" box box-info">
+        <div class="box-header with-border">
+          <div class="box-title">
+            To Do
+          </div>
+        </div>
+        <div class="box-body">
+          This is the to-do list
+          <div class="list">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class=" box box-primary">
+        <div class="box-header with-border">
+          <div class="box-title">
+            Doing
+          </div>
+        </div>
+        <div class="box-body">
+          This is what I'm working on right now
+          <div class="list">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /.content -->
